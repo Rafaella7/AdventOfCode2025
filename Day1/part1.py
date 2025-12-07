@@ -1,7 +1,7 @@
 dial = 50;
 num = 0
 
-with open('Day1/data1.txt', 'r') as f:
+with open('Day1/data.txt', 'r') as f:
     for line in f:
         direction = line[0]
         value = int(line[1:])
